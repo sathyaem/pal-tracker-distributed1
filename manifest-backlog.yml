@@ -8,8 +8,8 @@ applications:
   env:
     #REGISTRATION_SERVER_ENDPOINT: http://registration-pal-sathia.apps.pikes.pal.pivotal.io
   GRANT_TYPE: client_credentials
-    SECURITY_USER_NAME: actuator
-    SECURITY_USER_PASSWORD: operations4red
+  SECURITY_USER_NAME: actuator
+  SECURITY_USER_PASSWORD: operations4red
   services:
   - tracker-backlog-database
   - tracker-service-registry
